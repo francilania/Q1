@@ -1,0 +1,69 @@
+package testefinal;
+
+public class Livro {
+
+private String titulo;
+private String autor;
+private String isbn;
+private int numerodepaginas;
+private double valordecompra;
+
+public void setTitulo (String livroTitulo) {
+
+this.titulo = livroTitulo;
+
+}
+
+public String getTitulo ( ) {
+
+return this.titulo;
+
+}
+
+public void setAutor (String livroAutor) {
+
+this.autor = livroAutor;
+
+}
+ public String getAutor ( ) {
+
+return this.autor;
+
+}
+
+public void setIsbn (String livroIsbn) {
+
+this.isbn = livroIsbn;
+
+}
+
+public String getIsbn ( ) {
+
+return this.isbn;
+
+}
+public void setPaginas ( int numeroPaginas ) {
+
+this.numerodepaginas = numeroPaginas;
+
+}
+
+public int getPaginas ( ) {
+
+return this.numerodepaginas;
+
+}
+
+public void setCompra ( double valorCompra ) {
+
+this.valordecompra = valorCompra;
+
+}
+
+public doubleCompra ( ) {
+
+return this.valordecompra;
+
+}
+
+}
